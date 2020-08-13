@@ -1,0 +1,61 @@
+/* Created Using Easy HTML v1.4.5 */
+/* https://play.google.com/store/apps/details?id=ak.andro.easyhtml */
+
+body{
+  background-image:linear-gradient(to left, azure,pink);
+  margin: 0;
+  padding:0;
+}
+div{
+  background:#fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px pink;
+  margin:30px;
+  position:absolute;
+  text-align:center;
+  width:300px;
+}
+h2 {
+  font: sans-serif;
+  font-size:20px;
+  font-weight:bold;
+}
+#text{
+  margin-left:110px;
+  margin-top:5px;
+  text-align:left;
+}
+button {
+  background-image:linear-gradient(to left, pink,azure);
+  border:none;
+  border-radius:30px;
+  font-weight:600;
+  margin-right:10px;
+  outline:none;
+  width:80px;
+}
+#resetBtn {
+  background-image:linear-gradient(to right, pink, azure);
+  }
+button:hover{
+  box-shadow: 1px 1px 5px red;
+}
+input{
+  border: none;
+  outline:none;
+  border-bottom:solid 2px brown;
+  width:100px;
+}
+input:focus{
+  width:150px;
+  transition:0.5s;
+}
+#deduce{
+  color:brown;
+  font-size:14px;
+  font-weight:bold;
+  }
+#info{
+  padding: 12px;
+  color:brown;
+}
